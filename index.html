@@ -12,18 +12,23 @@
         }
 
         body {
-            background-color: #000; /* Black background for contrast */
+            background-color: #000; /* Black background */
             display: flex;
             flex-direction: column;
             align-items: center;
+            overflow-y: auto; /* Enable vertical scrolling */
         }
 
         .image-container {
-            width: 100vw; /* Full width of the screen */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100vw; /* Full width */
         }
 
         .image-container img {
-            width: 100%;
+            max-width: 100%; /* Maintain image quality */
+            height: auto; /* Maintain aspect ratio */
             display: block;
         }
     </style>
@@ -35,5 +40,8 @@
         <img src="https://github.com/SujalBurade/webpage/blob/main/3.png?raw=true" alt="Webpage 3">
         <img src="https://github.com/SujalBurade/webpage/blob/main/4.png?raw=true" alt="Webpage 4">
     </div>
+
+    <!-- Tidio Chatbot Script -->
+    <script src="//code.tidio.co/aetlcouzaf5jh7dvfbilq5lqkpk0dssd.js" async></script>
 </body>
 </html>
