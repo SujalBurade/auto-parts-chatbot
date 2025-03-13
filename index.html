@@ -12,7 +12,7 @@
         }
 
         body {
-            background-color: #000; /* Black background */
+            background-color: #000; /* Black background for contrast */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -27,21 +27,31 @@
         }
 
         .image-container img {
-            max-width: 100%; /* Maintain image quality */
+            width: 100vw; /* Ensure full width */
             height: auto; /* Maintain aspect ratio */
             display: block;
+        }
+
+        /* Increase Tidio Chat Button Size */
+        #tidio-chat {
+            transform: scale(1.5); /* Increase button size */
+            bottom: 20px !important; /* Adjust position */
+            right: 20px !important;
         }
     </style>
 </head>
 <body>
+
     <div class="image-container">
-        <img src="https://github.com/SujalBurade/webpage/blob/main/1.png?raw=true" alt="Webpage 1">
+        <img src="https://github.com/SujalBurade/webpage/blob/main/1234.png?raw=true" alt="Webpage 1">
         <img src="https://github.com/SujalBurade/webpage/blob/main/2.png?raw=true" alt="Webpage 2">
         <img src="https://github.com/SujalBurade/webpage/blob/main/3.png?raw=true" alt="Webpage 3">
         <img src="https://github.com/SujalBurade/webpage/blob/main/4.png?raw=true" alt="Webpage 4">
     </div>
 
-    <!-- Tidio Chatbot Script -->
+    <!-- Tidio Chatbot Integration -->
     <script src="//code.tidio.co/aetlcouzaf5jh7dvfbilq5lqkpk0dssd.js" async></script>
+
 </body>
 </html>
+
